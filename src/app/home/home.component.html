@@ -1,0 +1,802 @@
+<div class="homepage-5">
+    <div class="main">
+        <div id="scrollUp" title="Scroll To Top">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        
+        <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
+            <div class="container position-relative">
+                <a class="navbar-brand" href="index.html">
+                    <img style="height: 60px; width: 60px;" class="navbar-brand-regular" src="assets/img/logo-white.png" alt="brand-logo">
+                    <img style="height: 60px; width: 60px;" class="navbar-brand-sticky" src="assets/img/logo.png" alt="sticky brand-logo">
+                </a>
+                
+        
+               
+            </div>
+        </header>
+        
+        <section id="home" class="section welcome-area bg-overlay d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <!-- Welcome Intro Start -->
+                    <div class="col-12 col-lg-7">
+                        <div class="welcome-intro">
+                            <h1 class="text-white">eManifest for Nigeria Transport System</h1>
+                            
+                            <div class="button-group store-buttons d-flex">
+                                <a href="#" class="btn sApp-btn text-uppercase scroll">Register Your CruiseBoat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 80px; margin-left: -20px;" class="col-12 col-md-8 col-lg-5">
+                        <!-- Contact Box -->
+                        <div style="width: 410px;" class="contact-box bg-white text-center rounded p-4 p-sm-5 mt-5 mt-lg-0 shadow-lg">
+                            <!-- Contact Form -->
+                            <form [formGroup]="emanifestForm">
+                                <div class="contact-top">
+                                    <h3 class="contact-title">NIWA REGISTRATION</h3>
+                                    <h5 class="text-secondary fw-3 py-3">Fill all fields so we can get some info about you. We'll never send you spam</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                 <input type="text" placeholder="First Name" formControlName="firstname">
+                                    </div>
+                    
+                                    <div class="col-6">
+                                    <input type="text" placeholder="Last Name" formControlName="lastname">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Address" formControlName="addres">
+                                    </div>
+                    
+                                    <div class="col-6">
+                                    <input type="text" placeholder="Phone" formControlName="phone">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Email" formControlName="email">
+                                    </div>
+                    
+                                    <div class="col-6">
+                                    <input type="text" placeholder="Password" formControlName="password">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Gender" formControlName="gender">
+                                    </div>
+                    
+                                    <div class="col-6">
+                                    <input type="text" placeholder="State" formControlName="state">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Registration Status" formControlName="regstatus">
+                                    </div>
+                    
+                                    <div class="col-6">
+                                    <input type="text" placeholder="Next Of Kin" formControlName="nextofkin">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Next of Kin Relationship" formControlName="relationship">
+                                    </div>
+                                    <div class="col-6">
+                                 <input type="text" placeholder="Next of Kin Phone" formControlName="nextphone">
+                                    </div>
+                                    
+                                                      
+                                    <div class="col-12">
+                                        <button (click)="pushUp()" class="btn btn-bordered w-100 mt-3 mt-sm-4" type="submit">REGISTER NOW!</button>
+                                        
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="form-message"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Shape Bottom -->
+            <div class="shape-bottom">
+                <svg xmlns="" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="shape-fill" fill="#FFFFFF" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7  c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4  c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+                </svg>
+            </div>
+        </section>
+        
+        <section id="features" class="section features-area style-two overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-7">
+                        <!-- Section Heading -->
+                        <div class="section-heading">
+                            <span class="d-inline-block rounded-pill shadow-sm fw-5 px-4 py-2 mb-3">
+                                <i class="far fa-lightbulb text-primary mr-1"></i>
+                                <span class="text-primary">Premium e-Manifest</span>
+                                Features
+                            </span>
+                            <h2 style="text-align: center;">e-Manifest Functionality</h2>
+                           <p class="d-block d-sm-none mt-4">often referred to as e-Manifest, brings several benefits and features. Here are some key points related to e-Manifest</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 my-3 res-margin">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInLeft" data-aos-duration="2s" data-wow-delay="0.4s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_1.png" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Digital Documentation</h3>
+                                <p>Enables the creation, submission, and tracking of manifests electronically.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-3 res-margin">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInUp" data-aos-duration="2s" data-wow-delay="0.2s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_2.jpg" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Regulatory Compliance</h3>
+                                <p>Streamlines compliance by automating data submission and record-keeping.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-3 res-margin">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInRight" data-aos-duration="2s" data-wow-delay="0.4s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_2.png" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Efficiency and Accuracy</h3>
+                                <p>Enhances the efficiency of manifest processes, saving time for waste generators, transporters, and receiving facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-3 res-margin">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInLeft" data-aos-duration="2s" data-wow-delay="0.8s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_4.jpg" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Accessibility and Transparency</h3>
+                                <p>Facilitates easy access to manifest data for regulatory agencies, waste generators, transporters, and disposal facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-3 res-margin">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInUp" data-aos-duration="2s" data-wow-delay="0.4s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_5.jpg" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Data Integrity and Security</h3>
+                                <p>Ensures the integrity and security of manifest data through digital encryption and authentication measures.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                        <!-- Image Box -->
+                        <div class="image-box text-center icon-1 p-5 wow fadeInRight" data-aos-duration="2s" data-wow-delay="0.8s">
+                            <!-- Featured Image -->
+                            <div class="featured-img mb-3">
+                                <img class="avatar-sm" src="assets/img/featured_image_6.png" alt="">
+                            </div>
+                            <!-- Icon Text -->
+                            <div class="icon-text">
+                                <h3 class="mb-2">Cost Savings</h3>
+                                <p>Minimizes the need for physical storage space for paper manifests.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section discover-area bg-gray overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-6 order-2 order-lg-1">
+                        <!-- Discover Thumb -->
+                        <div class="service-thumb discover-thumb mx-auto">
+                            <img src="assets/img/discover_thumb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 order-1 order-lg-2">
+                        <!-- Discover Text -->
+                        <div class="discover-text pt-4 pt-lg-0">
+                            <h2 class="pb-4 pb-sm-0" style="color: white;">Easily communicate using e-Manifest.</h2>
+                     
+                            <!-- Check List -->
+                            <ul class="check-list">
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-2">Enables real-time communication and data exchange.</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-2">Automates the notification process, alerting relevant parties about the initiation.</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-2">Serves as a centralized platform where all stakeholders can access and update relevant information.</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-2">Supports mobile access, allowing stakeholders to communicate and access information from anywhere.</span>
+                                    </div>
+                                </li>
+                            </ul>
+                            
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- nowork -->
+<div>
+    <br>
+    <br>
+</div>
+<!-- nowork -->
+       
+        <section class="section work-area bg-overlay overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <!-- Work Content -->
+                        <div class="work-content text-center">
+                            <h2 class="text-white">How e-Manifest works?</h2>
+                            <p class="text-white my-3 mt-sm-4 mb-sm-5">Certainly! The e-Manifest system is designed to facilitate the electronic creation, submission, and tracking of hazardous waste manifests. Here's an overview of how the e-Manifest process typically works</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <!-- Single Work -->
+                        <div class="single-work text-center p-3">
+                            <!-- Work Icon -->
+                            <div class="work-icon">
+                                <img class="avatar-md" src="assets/img/work_thumb_1.png" alt="">
+                            </div>
+                            <h3 class="text-white py-3">Registration and Onboarding</h3>
+                            <p class="text-white">Waste generators, transporters, and disposal facilities register with the e-Manifest system.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <!-- Single Work -->
+                        <div class="single-work text-center p-3">
+                            <!-- Work Icon -->
+                            <div class="work-icon">
+                                <img class="avatar-md" src="assets/img/work_thumb_2.png" alt="">
+                            </div>
+                            <h3 class="text-white py-3">Manifest Creation</h3>
+                            <p class="text-white">Waste generators initiate the manifest creation process electronically.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <!-- Single Work -->
+                        <div class="single-work text-center p-3">
+                            <!-- Work Icon -->
+                            <div class="work-icon">
+                                <img class="avatar-md" src="assets/img/work_thumb_3.png" alt="">
+                            </div>
+                            <h3 class="text-white py-3">Real-time Tracking</h3>
+                            <p class="text-white">The e-Manifest system provides real-time tracking capabilities, allowing users to monitor the status and location of waste shipments at any point in the transportation and disposal process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        
+        <section class="section testimonial-area ptb_100">
+            <div class="container text-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <div class="testimonials owl-carousel">
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial p-3 p-md-5">
+                                <img src="assets/img/avatar-1.png" class="mx-auto d-block" alt="">
+                                <!-- Client Name -->
+                                <h3 class="client-name mt-4 mb-2">Jaji-Sambo</h3>
+                                <!-- Client Address -->
+                                <h5 class="client-address fw-4">Apapa Lagos, Nigeria</h5>
+                                <!-- Client Rating -->
+                                <div class="client-rating mt-2 mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <!-- Client Description -->
+                                <div class="client-description">
+                                    <!-- Client Text -->
+                                    <div class="client-text">
+                                        <p>The ministerial role extends beyond mere infrastructure development. It encompasses the implementation of regulatory frameworks, fostering innovation in transportation modes, and the promotion of public awareness campaigns. This multifaceted approach reflects the understanding that a holistic and sustainable transportation system is essential for a nation's economic growth, social cohesion, and environmental stewardship.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial p-3 p-md-5">
+                                <img src="assets/img/avatar-2.png" class="mx-auto d-block" alt="">
+                                <!-- Client Name -->
+                                <h3 class="client-name mt-4 mb-2">Adigun Oladejo</h3>
+                                <!-- Client Address -->
+                                <h5 class="client-address fw-4">Apapa Lagos, Nigeria</h5>
+                                <!-- Client Rating -->
+                                <div class="client-rating mt-2 mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <!-- Client Description -->
+                                <div class="client-description">
+                                    <!-- Client Text -->
+                                    <div class="client-text">
+                                        <p>The Minister of Road Transport is entrusted with the crucial task of developing and maintaining an efficient and safe road infrastructure. This includes not only the construction and expansion of roads but also the integration of modern technologies to enhance traffic management, reduce congestion, and promote sustainable transportation solutions. A forward-thinking minister recognizes the need to balance immediate needs with long-term goals, ensuring that road networks are not only robust today but also adaptable to the evolving demands of the future.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Testimonial -->
+                            <div class="single-testimonial p-3 p-md-5">
+                                <img src="assets/img/avatar-3.png" class="mx-auto d-block" alt="">
+                                <!-- Client Name -->
+                                <h3 class="client-name mt-4 mb-2">Giwa Adams</h3>
+                                <!-- Client Address -->
+                                <h5 class="client-address fw-4">Apapa Lagos, Nigeria</h5>
+                                <!-- Client Rating -->
+                                <div class="client-rating mt-2 mb-3">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <!-- Client Description -->
+                                <div class="client-description">
+                                    <!-- Client Text -->
+                                    <div class="client-text">
+                                        <p>One of the primary responsibilities of the minister is to formulate policies that address issues such as road safety, environmental sustainability, and the integration of smart technologies. By fostering collaborations with various stakeholders, including local communities, private enterprises, and international partners, the minister endeavors to create a comprehensive and inclusive roadmap for the nation's transportation landscape.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pricing" class="section price-plan-area bg-gray overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <!-- Section Heading -->
+                       
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10 col-lg-8">
+                        <div class="row price-plan-wrapper">
+                            <div class="col-12 col-md-6">
+                                <!-- Single Price Plan -->
+                              
+                            </div>
+                            <div class="col-12 col-md-6 mt-4 mt-md-0">
+                                <!-- Single Price Plan -->
+                                <div class="single-price-plan text-center p-5 wow fadeInRight" data-aos-duration="2s" data-wow-delay="0.4s">
+                                    <!-- Plan Thumb -->
+                                   
+                                   
+                                   
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- FAQ Content -->
+                        <div class="faq-content">
+                            <span class="d-block text-center mt-5">Not sure what to choose? <a href="/contact">Contact Us</a></span>
+                            <!-- sApp Accordion -->
+                            <div class="accordion pt-5" id="apolo-accordion">
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn p-2" type="button" data-toggle="collapse" data-target="#collapseOne">
+                                                        How to install sApp?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseOne" class="collapse show" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn collapsed p-2" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                                                        Can I get support from the Author?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn collapsed p-2" type="button" data-toggle="collapse" data-target="#collapseThree">
+                                                        Contact form isn't working?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn collapsed p-2" type="button" data-toggle="collapse" data-target="#collapseFour">
+                                                        What about the events?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseFour" class="collapse" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn p-2" type="button" data-toggle="collapse" data-target="#collapseFive">
+                                                        How can I get product update?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseFive" class="collapse show" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Single Accordion Item -->
+                                        <div class="card my-2">
+                                            <!-- Card Header -->
+                                            <div class="card-header">
+                                                <h2 class="mb-0">
+                                                    <button class="btn collapsed p-2" type="button" data-toggle="collapse" data-target="#collapseSix">
+                                                        Is this template support rtl?
+                                                    </button>
+                                                </h2>
+                                            </div>
+                                            <div id="collapseSix" class="collapse" data-parent="#apolo-accordion">
+                                                <!-- Card Body -->
+                                                <div class="card-body">
+                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section team-area team-style-two overflow-hidden ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <!-- Section Heading -->
+                        <div class="section-heading text-center">
+                            <h2 class="text-capitalize">Our Team Experts</h2>
+                            <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
+                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <!-- Single Team -->
+                        <div class="single-team text-center overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb d-inline-block position-relative overflow-hidden">
+                                <img src="assets/img/avatar-1.png" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay">
+                                    <h4 class="team-name text-white">Junaid Hasan</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Founder &amp; CEO</h6>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <!-- Single Team -->
+                        <div class="single-team text-center overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb d-inline-block position-relative overflow-hidden">
+                                <img src="assets/img/avatar-2.png" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay">
+                                    <h4 class="team-name text-white">Jassica William</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Co-Founder</h6>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <!-- Single Team -->
+                        <div class="single-team text-center overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb d-inline-block position-relative overflow-hidden">
+                                <img src="assets/img/avatar-3.png" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay">
+                                    <h4 class="team-name text-white">Md. Arham</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Web Developer</h6>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <!-- Single Team -->
+                        <div class="single-team text-center overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb d-inline-block position-relative overflow-hidden">
+                                <img src="assets/img/avatar-4.png" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay">
+                                    <h4 class="team-name text-white">Yasmin Akter</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Graphic Designer</h6>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                        <a class="p-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section download-area overlay-dark ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-9">
+                        <!-- Download Text -->
+                        <div class="download-text text-center">
+                            <h2 class="text-white">e-Manifest is Available for you</h2>
+                            <p class="text-white my-3 d-none d-sm-block">e-Manifest provides a digital platform accessible to waste generators, transporters, and disposal facilities.</p>
+                            <p class="text-white my-3 d-block d-sm-none">Users can receive real-time updates on the status of waste shipments, enhancing transparency and communication.</p>
+                            <!-- Store Buttons -->
+                            <div class="button-group store-buttons d-flex justify-content-center">
+                                <a href="/thank-you">
+                                    <img src="assets/img/google-play.png" alt="">
+                                </a>
+                                <a href="/thank-you">
+                                    <img src="assets/img/app-store.png" alt="">
+                                </a>
+                            </div>
+                            <span class="d-inline-block text-white fw-3 font-italic mt-3">* Available on iPhone, iPad and all Android devices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section subscribe-area ptb_100">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <div class="subscribe-content text-center">
+                            <h2>Subscribe to get updates</h2>
+                            <p class="my-4">By subscribing you will get newsleter, promotions adipisicing elit. Architecto beatae, asperiores tempore repudiandae saepe aspernatur unde voluptate sapiente quia ex.</p>
+                            <!-- Subscribe Form -->
+                            <form class="subscribe-form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-block">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+      
+        
+        <div class="height-emulator d-none d-lg-block"></div>
+        <footer class="footer-area footer-fixed">
+            <!-- Footer Top -->
+            <div class="footer-top ptb_100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <!-- Footer Items -->
+                            <div class="footer-items">
+                                <!-- Logo -->
+                                <a class="navbar-brand" href="#">
+                                    <img class="logo" src="assets/img/logo.png" alt="">
+                                </a>
+                                <p class="mt-2 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                                <!-- Social Icons -->
+                                <div class="social-icons d-flex">
+                                    <a class="facebook" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="twitter" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="google-plus" href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                    <a class="vine" href="#">
+                                        <i class="fab fa-vine"></i>
+                                        <i class="fab fa-vine"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <!-- Footer Items -->
+                            <div class="footer-items">
+                                <!-- Footer Title -->
+                                <h3 class="footer-title mb-2">Useful Links</h3>
+                                <ul>
+                                    <li class="py-2"><a href="#">Home</a></li>
+                                    <li class="py-2"><a href="#">About Us</a></li>
+                                    <li class="py-2"><a href="#">Services</a></li>
+                                    <li class="py-2"><a href="#">Blog</a></li>
+                                    <li class="py-2"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <!-- Footer Items -->
+                            <div class="footer-items">
+                                <!-- Footer Title -->
+                                <h3 class="footer-title mb-2">Product Help</h3>
+                                <ul>
+                                    <li class="py-2"><a href="#">FAQ</a></li>
+                                    <li class="py-2"><a href="#">Privacy Policy</a></li>
+                                    <li class="py-2"><a href="#">Support</a></li>
+                                    <li class="py-2"><a href="#">Terms &amp; Conditions</a></li>
+                                    <li class="py-2"><a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <!-- Footer Items -->
+                            <div class="footer-items">
+                                <!-- Footer Title -->
+                                <h3 class="footer-title mb-2">Download</h3>
+                                <!-- Store Buttons -->
+                                <div class="button-group store-buttons store-black d-flex flex-wrap">
+                                    <a href="/thank-you">
+                                        <img src="assets/img/google-play-black.png" alt="">
+                                    </a>
+                                    <a href="/thank-you">
+                                        <img src="assets/img/app-store-black.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Copyright Area -->
+                            <div class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-4">
+                                <!-- Copyright Left -->
+                                <div class="copyright-left">&copy; Copyrights 2021 sApp All rights reserved.</div>
+                                <!-- Copyright Right -->
+                                <div class="copyright-right">Made with <i class="fas fa-heart"></i> By <a href="#">Themeland</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
